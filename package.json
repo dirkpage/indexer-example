@@ -1,0 +1,32 @@
+{
+  "name": "protocol-indexer",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "ponder dev",
+    "start": "ponder start",
+    "codegen": "ponder codegen",
+    "serve": "ponder serve",
+    "lint": "eslint .",
+    "init": "npx tsx init/install-routes.ts && npx tsx init/setup-contracts.ts && npx tsx init/uninstall-routes.ts",
+    "typecheck": "tsc"
+  },
+  "dependencies": {
+    "hono": "^4.5.0",
+    "npm-registry-fetch": "^18.0.2",
+    "ponder": "^0.9.10",
+    "viem": "^2.21.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@types/npm-registry-fetch": "^8.0.7",
+    "eslint": "^8.54.0",
+    "eslint-config-ponder": "^0.7.1",
+    "prettier": "^3.4.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.3.2"
+  },
+  "engines": {
+    "node": ">=18.14"
+  }
+}
