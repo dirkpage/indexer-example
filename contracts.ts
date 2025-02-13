@@ -1312,17 +1312,6 @@ export const CONTRACTS = {
         ],
         "startBlock": 22000000
       },
-      "mantle": {
-        "address": [
-          "0x6a3F608cc053c51a9C87897Ee376C992EAbF7BDF",
-          "0x26E1E5C42206c07A1f678b18d2ed909EF0abF50b",
-          "0xFb26179cF0bcb30bC65eF2f142a418EC66Fa973A",
-          "0x7ac9A3f572b5BDC34C1E45685C0A619aEB76665d",
-          "0x9c279fe3cE3eEc5635F4727586C5DdFd44C0fa34",
-          "0x58b9e4d5EC0636ADCdA76DF181fa8f73bF930a13"
-        ],
-        "startBlock": 71000000
-      },
       "arbitrum": {
         "address": [
           "0x6a3F608cc053c51a9C87897Ee376C992EAbF7BDF",
@@ -1333,24 +1322,6 @@ export const CONTRACTS = {
           "0x58b9e4d5EC0636ADCdA76DF181fa8f73bF930a13"
         ],
         "startBlock": 268000000
-      },
-      "polygon": {
-        "address": [
-          "0xFb26179cF0bcb30bC65eF2f142a418EC66Fa973A",
-          "0xC9Ed3d804A604EAdddc8B1313b4293B680Ae2Fe5",
-          "0x9c279fe3cE3eEc5635F4727586C5DdFd44C0fa34",
-          "0x58b9e4d5EC0636ADCdA76DF181fa8f73bF930a13"
-        ],
-        "startBlock": 67000000
-      },
-      "mainnet": {
-        "address": [
-          "0xFb26179cF0bcb30bC65eF2f142a418EC66Fa973A",
-          "0x38b85A2a3493587DB03afb20da9c22E5c2cf49C3",
-          "0x9c279fe3cE3eEc5635F4727586C5DdFd44C0fa34",
-          "0x58b9e4d5EC0636ADCdA76DF181fa8f73bF930a13"
-        ],
-        "startBlock": 21700000
       }
     }
   }
