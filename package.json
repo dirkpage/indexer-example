@@ -8,12 +8,10 @@
     "codegen": "ponder codegen",
     "serve": "ponder serve",
     "lint": "eslint .",
-    "init": "npx tsx init/install-routes.ts && npx tsx init/setup-contracts.ts && npx tsx init/uninstall-routes.ts",
     "typecheck": "tsc"
   },
   "dependencies": {
     "hono": "^4.5.0",
-    "npm-registry-fetch": "^18.0.2",
     "ponder": "^0.9.10",
     "viem": "^2.21.3"
   },

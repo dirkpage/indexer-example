@@ -16,16 +16,6 @@ Copy the `.env.example` file to `.env.local` and update your RPC urls and databa
 npm ci
 ```
 
-#### Initialize protocol contracts
-
-Before running, you must generate the contract config:
-
-```sh
-npm run init
-```
-
-This will add all of the published [@eco-foundation/routes-ts](https://npmjs.com/package/@eco-foundation/routes-ts) package versions as dependencies to this repo, and generate a contract config for tracking all deployed contract addresses, grouping versions where there are no ABI changes.
-
 ## Run in development
 
 ```sh

@@ -7,6 +7,4 @@ EXPOSE 42069
 
 RUN npm ci
 
-RUN npm run init
-
 ENTRYPOINT [ "npm", "run", "start" ]
