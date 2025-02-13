@@ -9,7 +9,3 @@ export enum Networks {
   BASE = "base",
   ARBITRUM = "arbitrum",
 }
-
-export type ExtendedNetworkConfig = NetworkConfig & {
-  protocolStartBlock: number;
-}
