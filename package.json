@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "ponder dev",
+    "dev": "ponder dev --disable-ui",
     "start": "ponder start",
     "codegen": "ponder codegen",
     "serve": "ponder serve",
